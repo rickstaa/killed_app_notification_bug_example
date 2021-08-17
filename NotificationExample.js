@@ -38,6 +38,7 @@ export const NotificationExample = () => {
       Notifications.addNotificationResponseReceivedListener((response) => {
         alert("Received notification.");
         // console.log(response);
+        // setNotification(response.notification);
       });
 
     return () => {
