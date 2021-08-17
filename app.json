@@ -23,7 +23,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.rickstaa.killed_app_notification_bug_example"
     },
     "web": {
       "favicon": "./assets/favicon.png"
