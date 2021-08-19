@@ -36,9 +36,9 @@ export const NotificationExample = () => {
 
     responseListener.current =
       Notifications.addNotificationResponseReceivedListener((response) => {
-        alert("Received notification.");
         // console.log(response);
         // setNotification(response.notification);
+        alert("Received notification.");
       });
 
     return () => {
